@@ -1,0 +1,263 @@
+/* RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* GLOBAL */
+
+body {
+  background-color: #00c2ff;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Akira Expanded", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 95vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+}
+
+.titulo {
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 9px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* TELA INICIAL */
+
+.tela-inicial {
+  align-items: center;
+  justify-content: center;
+}
+
+.tela-inicial img {
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tela-inicial li {
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+  display: inline-flex;
+  font-size: 20px;
+}
+
+.tela-inicial a:hover {
+  color: #ffe201;
+  transform: scale(1.1);
+}
+
+.tela-inicial ul {
+  background-color: black;
+  width: 800px;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.galeria img {
+  width: 191.5px;
+
+  border-radius: 25px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+}
+
+.galeria img:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
+}
+
+.link {
+  max-width: 800px;
+}
+.link {
+  background-color: black;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+.link a:hover {
+  color: #ffe201;
+  transform: scale(1.1);
+}
+
+.galeria {
+  max-width: 790px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* REDES SOCIAIS */
+
+.redes-sociais li {
+  background-color: black;
+  width: 800px;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+.redes-sociais li a:hover {
+  color: #ffe201;
+}
+
+/* ENCOMENDAS */
+
+.formulario {
+  background-color: black;
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.form-titulo {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.f-nome {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+.f-sobrenome {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+.f-email {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+.f-redes {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+.f-referencia {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+.campo {
+  border-radius: 20px;
+  max-width: 800px;
+  max-height: 200px;
+  height: 35px;
+}
+
+.campo-ref {
+  border-radius: 10px;
+  max-width: 800px;
+  max-height: 200px;
+  height: 90px;
+}
+
+.botao {
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.botao:hover {
+  color: #ffe201;
+}
+
+.encomenda {
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.botao-anexo {
+  background-color: white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #00c2ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 40px;
+}

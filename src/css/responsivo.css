@@ -1,0 +1,114 @@
+@media (max-width: 700px) {
+  body {
+    font-size: 12px;
+    padding: 0;
+  }
+
+  .container {
+    width: 55vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tela-inicial {
+    align-items: center;
+    justify-content: center;
+  }
+  .tela-inicial img {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+
+  .tela-inicial li {
+    color: white;
+    padding: 16px;
+    min-width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    background-color: black;
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+
+  .tela-inicial a:hover {
+    color: #ffe201;
+    transform: scale(1.1);
+  }
+
+  .tela-inicial ul {
+    width: 330px;
+    background-color: #00c2ff;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* .tela-inicial ul {
+        
+        display:none;
+      } */
+
+  .portfolio {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .galeria img {
+    width: 154.59px;
+
+    border-radius: 25px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .galeria img:hover {
+    transform: scale(1);
+    transition: transform 0.5s;
+  }
+
+  .link {
+    width: 330px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .galeria {
+    height: 60vh;
+
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00c2ff;
+  }
+
+  .redes-sociais h2 {
+    margin-bottom: 40px;
+  }
+  .redes-sociais li {
+    background-color: black;
+    width: 350px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 9px;
+  }
+
+  .redes-sociais li a:hover {
+    color: #ffe201;
+  }
+}
